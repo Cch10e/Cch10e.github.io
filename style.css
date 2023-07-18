@@ -1,0 +1,194 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+/* so that aspect ratio is kept even if height is declared in markup */ 
+border: 0;
+/* this stops a border if the image is inside a link */
+}
+
+/* This is a CSS comment.
+Always comment your work to explain what you're doing */ 
+body {
+font-family: arial, sans-serif;
+}
+
+/*
+background color defaults
+Note that HTML and CSS use American spelling (color not colour). */
+body {
+      background-color: orange;
+     }
+header {
+       background-color: black;
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align: center;
+               }
+
+/* TYPOGRAPHY*/
+h1 {
+padding-top:20px;
+	font-family: 'Press Start 2P', cursive;
+font-size:35px;
+color: #fff; 
+text-transform: uppercase;
+   } 
+h2 {
+font-family: 'Press Start 2P', cursive;
+font-size:25px;
+color: #262525; 
+text-transform: uppercase;
+   }
+
+
+.headmiddle {
+font-family: 'Press Start 2P', cursive;
+font-size:30px;
+color: #fff; 
+text-transform: uppercase;
+	text-align:center;
+   } 
+
+
+
+
+
+h1,h2,p,li {
+            padding-bottom: 1em; 
+           }
+
+
+.item {
+       background-color: lightblue;
+       padding:1%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 20px; 
+       border-radius:10px;
+}
+
+main {
+
+     max-width: 1000px;
+
+     margin-left: auto;
+     margin-right: auto; 
+      }
+
+/* let's talk about nesting */ 
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+text-transform: uppercase; 
+font-style: italic;
+}
+
+
+nav {
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+/* nav li a, or nav a ?? */ nav a {
+background: white; 
+color: black;
+padding: 5px; 
+text-decoration: none; 
+border-radius: 5px;
+}
+nav a:hover {
+background: orange;
+}
+body {
+background-color: black;
+background-image: url(BG.jpg); 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 500px ) { 
+body {
+background-color: #272727;
+	background-image: url(Background.png); 
+
+font-family: arial; 
+}
+.item {
+background-color: rgba(151,151,151,1.00);
+} 
+
+
+	@media screen and (min-width: 768px){ 
+body {
+background-color: dark dimgrey; 
+background-image: url(Background.png); 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+.item {
+width: 31.3%;
+background-color: rgba(grey); float: left;
+}
+        footer {
+        color: grey;
+        clear: both;
+} 
+}
+}
+		
+		
+
+
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+		
+		
+		
